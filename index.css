@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timeline-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid #333;
+}
+
+.timeline-item {
+    position: absolute;
+    bottom: -30px;
+    width: 10%;
+    text-align: center;
+}
+
+.timeline-item .year {
+    font-weight: bold;
+}
+
+.timeline-item .event {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
