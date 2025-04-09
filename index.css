@@ -109,4 +109,5 @@ ul {
     padding-left: 20px;
     list-style-type: square;
     text-align: left; /* 確保文本對齊到左邊 */
+    font-size: small;
 }
