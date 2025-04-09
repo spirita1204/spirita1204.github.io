@@ -10,8 +10,14 @@ body {
     padding: 20px;
     width: 90%;
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* 使容器在視窗中垂直、水平居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* 把容器移回正中 */
 }
 
 h1 {
@@ -38,7 +44,8 @@ h1 {
 .circle1 {
     width: 30px;
     height: 30px;
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* 橙色到黃色 */
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    /* 橙色到黃色 */
     border-radius: 50%;
     margin: 0 auto 10px auto;
 }
@@ -46,7 +53,8 @@ h1 {
 .circle2 {
     width: 30px;
     height: 30px;
-    background: linear-gradient(45deg, #feb47b, #28a745); /* 黃色到綠色 */
+    background: linear-gradient(45deg, #feb47b, #28a745);
+    /* 黃色到綠色 */
     border-radius: 50%;
     margin: 0 auto 10px auto;
 }
@@ -54,7 +62,8 @@ h1 {
 .circle3 {
     width: 30px;
     height: 30px;
-    background: linear-gradient(45deg, #28a745, #4e6ef2); /* 綠色到藍色 */
+    background: linear-gradient(45deg, #28a745, #4e6ef2);
+    /* 綠色到藍色 */
     border-radius: 50%;
     margin: 0 auto 10px auto;
 }
@@ -62,7 +71,8 @@ h1 {
 .circle4 {
     width: 30px;
     height: 30px;
-    background: linear-gradient(45deg, #4e6ef2, #9b4df5); /* 藍色到紫色 */
+    background: linear-gradient(45deg, #4e6ef2, #9b4df5);
+    /* 藍色到紫色 */
     border-radius: 50%;
     margin: 0 auto 10px auto;
 }
@@ -88,7 +98,8 @@ h1 {
     color: #333;
 }
 
-.school, .company {
+.school,
+.company {
     font-size: 14px;
     color: #777;
 }
@@ -108,6 +119,7 @@ ul {
     margin-top: 5px;
     padding-left: 20px;
     list-style-type: square;
-    text-align: left; /* 確保文本對齊到左邊 */
+    text-align: left;
+    /* 確保文本對齊到左邊 */
     font-size: small;
 }
